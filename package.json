@@ -1,0 +1,30 @@
+{
+  "name": "test-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlenaRublik/test-parcel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlenaRublik/test-parcel/issues"
+  },
+  "homepage": "https://github.com/AlenaRublik/test-parcel#readme",
+  "dependencies": {
+    "joi": "^17.8.3",
+    "parcel-bundler": "^1.12.5",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
